@@ -32,7 +32,7 @@ export default function Header({ userId }) {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <Image width={300} height={300} className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+            <Image width={300} height={300} className="h-8 w-auto" src="https://2023-lamba-bucket.s3.ap-southeast-1.amazonaws.com/Group+39.png" alt="" />
           </a>
         </div>
         {!userId ? (
@@ -103,7 +103,7 @@ export default function Header({ userId }) {
               <span className="sr-only">Your Company</span>
               <Image width={300} height={300}
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="https://2023-lamba-bucket.s3.ap-southeast-1.amazonaws.com/Group+39.png"
                 alt=""
               />
             </a>
