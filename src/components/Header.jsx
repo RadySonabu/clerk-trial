@@ -64,13 +64,13 @@ export default function Header({ userId }) {
             </Transition>
           </Popover>
 
-          <Link  href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:text-m">
+          <Link  href="/about-us" className="text-sm font-semibold leading-6 text-gray-900 hover:text-m">
             About Us
           </Link >
-          <Link  href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link  href="/careers" className="text-sm font-semibold leading-6 text-gray-900">
             Careers
           </Link >
-          <Link  href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link  href="/contact-us" className="text-sm font-semibold leading-6 text-gray-900">
             Contact Us
           </Link >
         </Popover.Group>
@@ -105,7 +105,7 @@ export default function Header({ userId }) {
                 className="h-8 w-auto"
                 src="https://2023-lamba-bucket.s3.ap-southeast-1.amazonaws.com/Group+39.png"
                 alt=""
-              />a
+              />
             </Link >
             <button
               type="button"
@@ -121,19 +121,19 @@ export default function Header({ userId }) {
               <div className="space-y-2 py-6">
                 
                 <Link 
-                  href="#"
+                  href="/about-us"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About Us
                 </Link >
                 <Link 
-                  href="#"
+                  href="/careers"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Careers
                 </Link >
                 <Link 
-                  href="#"
+                  href="/contact-us"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Contact Us
