@@ -6,12 +6,9 @@ import Hero from './LandingPage/Hero'
 const LandingPage = () => {
   return (
     <div>
-      <div className='fixed top-0 w-full'>
+      <div className='fixed  top-0 w-full'>
         <Header/>
       </div>
-      <Hero/>
-      <Hero/>
-      <Hero/>
       <Hero/>
     </div>
   )
